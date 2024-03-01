@@ -2,8 +2,6 @@ import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Footer: React.FC = () => {
-    const backendSiteGithubUrl = "https://github.com/BrownTroutCoding/Flask_Co.Lab_Portfolio.git";
-    const frontendSiteGithubUrl = "https://github.com/BrownTroutCoding/React_Co.Lab_Portfolio.git";
     const personalGithubUrl = "https://github.com/BrownTroutCoding";
     const linkedInUrl = "https://www.linkedin.com/in/austin-beveridge-2ab33515b/";
 
