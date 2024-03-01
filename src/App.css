@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  color: black; /* Dark gray for text */
+  /* Add TailwindCSS classes for other elements as needed */
+}
+
+#experience, #dogwalk {
+  background: linear-gradient(180deg, #d6c0a3 0%, #e2d8cb 100%);
+}
