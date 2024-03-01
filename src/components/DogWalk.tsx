@@ -15,7 +15,7 @@ function DogWalk() {
         setIsLoading(true);
         console.log("Function called");
         try {
-            const response = await fetch(`http://127.0.0.1:5000//weather?zip=${zipCode}`);
+            const response = await fetch(`https://flask-co-lab-portfolio.onrender.com//weather?zip=${zipCode}`);
             const data = await response.json();
             console.log("Recieved Data:", data);
             {recommendationText && <p>Recommendation: {recommendationText}</p>};
@@ -56,7 +56,7 @@ function DogWalk() {
                 <div className='flex justify-center items-center'>
                     <div id="dogwalk" className="box info-box bg-gray-200 p-6 rounded-lg mb-6 shadow-md max-w-5xl">
                         <h1 className="text-4xl mb-4 mt-5 flex justify-center font-serif">Dog Walker</h1>
-                        <div className='max-w-lg'>
+                        <div className='flex justify-center'>
                             <h3 className="text-xl mt-5 flex justify-center font-serif">
                             Wondering if the weather's right for a dog walk? We've got you covered! By using real-time data from the Open Weather Map, we can tell you if it's a good time to grab that leash.
                             </h3>
@@ -86,8 +86,8 @@ function DogWalk() {
                                     {isLoading ? <CircularProgress size={24} /> : "Get Info"}
                                 </Button>
                             </div>
-                            <div className="weather-info text-xl flex flex-col items-center space-y-2 font-serif">
-                                {recommendation && <p className='text-4xl text-center'>{recommendation}</p>}
+                            <div className="weather-info text-l flex flex-col items-center space-y-2 font-serif">
+                                {recommendation && <p className='text-2xl text-center'>{recommendation}</p>}
                                 {temperature && <p className='text-xl text-center'>Temperature: {temperature.toFixed(2)}°F</p>}
                                 {weatherCondition && <p className='text-xl text-center'>Weather Condition: {weatherCondition}</p>}
                                 {windSpeed && <p className='text-xl text-center'>Wind Speed: {windSpeed.toFixed(2)} mph</p>}
