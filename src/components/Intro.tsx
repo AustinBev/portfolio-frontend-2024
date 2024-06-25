@@ -11,9 +11,9 @@ export default function Intro() {
             <h1 className="text-4xl mb-4 mt-5 flex justify-center font-serif">Austin Beveridge</h1>
             <h1 className="text-2xl mb-4 mt-5 flex justify-center font-serif">Full Stack Software Developer</h1>
 
-            <div className="mb-2 flex justify-center">
+            {/* <div className="mb-2 flex justify-center">
                 <span>(406)223-2695</span>
-            </div>
+            </div> */}
             <div className="mb-2 flex justify-center">
                 <a href="mailto:Austinbev.dev@gmail.com" className="underline">Austinbev.dev@gmail.com</a>
             </div>
@@ -40,7 +40,7 @@ export default function Intro() {
             </div>
 
             <div className="flex justify-center mt-5">
-                <h3 className='text-sx text-center px-6 py-3 border border-black rounded-md shadow-lg max-w-2x1 font-serif'>A Junior Software Developer equipped with a diverse skill set in both backend and frontend technologies, I am enthusiastic about contributing to a software engineering team, aiming to tackle real-world challenges through innovative software solutions.</h3>
+                <h3 className='text-sx text-center px-6 py-3 border border-black rounded-md shadow-lg max-w-2x1 font-serif'>A Junior Software Engineer equipped with a diverse skill set in both backend and frontend technologies, working with seasoned software engineers to further the development of a cutting-edge CPQ-M software stack.</h3>
             </div>
         </section>
     )
