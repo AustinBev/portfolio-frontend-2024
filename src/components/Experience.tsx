@@ -15,8 +15,12 @@ export default function Experience() {
 
     const experienceData = [
         {
-            title: "Remotasks | AI Trainer",
-            date: "12/2023 - current"
+            title: "Ridgeline Solutions, Inc. | Junior Software Engineer",
+            date: "5/2024 - current"
+        },
+        {
+            title: "Remotasks | AI Software Developer",
+            date: "12/2023 - 5/2024"
         },
         {
             title: "Co.Lab | Lead Backend Developer for 'Yeonjii'",
